@@ -1,5 +1,7 @@
-def add(frirs_term, secod_term)
+def add(first_term, second_term):
     return first_term + second_term
 
-def subtract(frirs_term, secod_term)
+
+def subtract(first_term, second_term):
     return first_term - second_term
+
