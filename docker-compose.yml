@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  calc:
+      image: calc_doc:local
+      container_name:  calc_doc
+      build: ./
+      volumes:
+        - .:.
+       
+
+      restart: always
